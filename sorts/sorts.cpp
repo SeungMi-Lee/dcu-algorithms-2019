@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define swap(type,x,y) do {type t = x; x=y; y=t;}while(0)
+
 int main()
 {
 	int a[10] = { 3, 4, 2, 6, 7, 8, 3, 4, 1, 5 };
